@@ -20,7 +20,7 @@ pip install transformers==4.51.3 tokenizers==0.21.1 pandas==2.2.3 scikit-learn==
 
 If you use Linux : 
 ```bash
-export PYTHONPATH=/Users/chkim/PycharmProjects/:$PYTHONPATH
+export PYTHONPATH=/mnt/c/Users/chkim/PycharmProjects/:$PYTHONPATH
 ```
 elif you use Windows : 
 ```powershell
@@ -50,8 +50,13 @@ You can check the log at `DRetHTR/sbatch/Job_out`
 ## 4) IAM test (single command)
 
 Run the evaluation using the recurrent beam decoding mode:
+
 ```bash
-python train.py --run_name=F_no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet --train_data_dir=dataset\IAM_deslanted --decoder=RetNet_Sinusoidal_to_out --batch_size=16 --start_epochs=1 --epochs=1000 --lr=5e-5 --weight_decay=1e-03 --lr_scheduler=CosineAnnealingLR --cnn_dropout=0.3 --decoder_dropout=0.3 --img_emb_dropout=0.1 --decoder_emb_dropout=0.1 --p_aug=0.5 --mode=test_recurrent_beam_wer --img_width=2227 --img_height=64 --patch_size=4 --num_channels=1 --embed_dim=768 --d_model=768 --decoder_attention_heads=12 --decoder_ffn_dim=3072 --decoder_depth=12 --cosineRestartEpoch=30 --split=A --weight_init=sd0.02 --bias_init=0 --label_smooth --modeldir=models --feature_extractor=efficientnet_v2_s --gamma_subtracter=0.86 --increase_gamma_along_layers --use_pre_trained_backbone --eval_cycle=1 --beam_during_test --load_weight_from_DDP --ret_norm --beam_width=5
+python train.py --run_name=F_no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet --base_path=/mnt/c/Users/chkim/PycharmProjects/DRetHTR --train_data_dir=dataset/IAM_deslanted --decoder=RetNet_Sinusoidal_to_out --batch_size=16 --start_epochs=1 --epochs=1000 --lr=5e-5 --weight_decay=1e-03 --lr_scheduler=CosineAnnealingLR --cnn_dropout=0.3 --decoder_dropout=0.3 --img_emb_dropout=0.1 --decoder_emb_dropout=0.1 --p_aug=0.5 --mode=test_recurrent_beam_wer --img_width=2227 --img_height=64 --patch_size=4 --num_channels=1 --embed_dim=768 --d_model=768 --decoder_attention_heads=12 --decoder_ffn_dim=3072 --decoder_depth=12 --cosineRestartEpoch=30 --split=A --weight_init=sd0.02 --bias_init=0 --label_smooth --modeldir=models --feature_extractor=efficientnet_v2_s --gamma_subtracter=0.86 --increase_gamma_along_layers --use_pre_trained_backbone --eval_cycle=1 --beam_during_test --load_weight_from_DDP --ret_norm --beam_width=5
+```
+
+```powershell
+python train.py --run_name=F_no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet --base_path=C:\Users\chkim\PycharmProjects\DRetHTR --train_data_dir=dataset\IAM_deslanted --decoder=RetNet_Sinusoidal_to_out --batch_size=16 --start_epochs=1 --epochs=1000 --lr=5e-5 --weight_decay=1e-03 --lr_scheduler=CosineAnnealingLR --cnn_dropout=0.3 --decoder_dropout=0.3 --img_emb_dropout=0.1 --decoder_emb_dropout=0.1 --p_aug=0.5 --mode=test_recurrent_beam_wer --img_width=2227 --img_height=64 --patch_size=4 --num_channels=1 --embed_dim=768 --d_model=768 --decoder_attention_heads=12 --decoder_ffn_dim=3072 --decoder_depth=12 --cosineRestartEpoch=30 --split=A --weight_init=sd0.02 --bias_init=0 --label_smooth --modeldir=models --feature_extractor=efficientnet_v2_s --gamma_subtracter=0.86 --increase_gamma_along_layers --use_pre_trained_backbone --eval_cycle=1 --beam_during_test --load_weight_from_DDP --ret_norm --beam_width=5
 ```
 You will see the result
 ```bash
