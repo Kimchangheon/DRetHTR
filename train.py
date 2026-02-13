@@ -270,7 +270,10 @@ else :
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
 
-    num_cpus = min(os.cpu_count(), 16)
+    if os.name == "nt" :
+        num_cpus = 0
+    else :
+        num_cpus = min(os.cpu_count(), 16)
     if device == "cpu":
         num_cpus = 1
     else:
