@@ -1,0 +1,207 @@
+0 start epoch is 1
+Previous Validation Loss: 999
+args.mode : train_inference_recurrent
+[Rank 0] After 1000 batches: Train Loss(last)=3.5707, Train CER(avg)=0.7219, Global Test CER=0.8301, Train Time=857.731 Decode Time=9.403 Save Time=0.928
+[Rank 0] After 2000 batches: Train Loss(last)=3.3834, Train CER(avg)=0.6714, Global Test CER=0.8647, Train Time=851.568 Decode Time=9.276 Save Time=0.000
+[Rank 0] After 3000 batches: Train Loss(last)=3.1635, Train CER(avg)=0.6257, Global Test CER=0.7134, Train Time=860.029 Decode Time=8.988 Save Time=0.726
+[Rank 0] After 4000 batches: Train Loss(last)=2.6896, Train CER(avg)=0.5332, Global Test CER=0.3482, Train Time=848.279 Decode Time=10.453 Save Time=0.738
+[Rank 0] After 5000 batches: Train Loss(last)=2.5610, Train CER(avg)=0.4475, Global Test CER=0.2685, Train Time=857.065 Decode Time=10.589 Save Time=0.733
+[Rank 0] After 6000 batches: Train Loss(last)=2.5315, Train CER(avg)=0.3850, Global Test CER=0.2395, Train Time=847.637 Decode Time=10.689 Save Time=0.753
+[Rank 0] After 7000 batches: Train Loss(last)=2.4995, Train CER(avg)=0.3384, Global Test CER=0.2267, Train Time=850.173 Decode Time=10.752 Save Time=0.852
+[Rank 0] After 8000 batches: Train Loss(last)=2.4896, Train CER(avg)=0.3024, Global Test CER=0.2049, Train Time=850.365 Decode Time=10.599 Save Time=0.759
+[Rank 0] After 9000 batches: Train Loss(last)=2.4732, Train CER(avg)=0.2738, Global Test CER=0.2040, Train Time=851.294 Decode Time=10.609 Save Time=0.764
+[Rank 0] After 10000 batches: Train Loss(last)=2.4667, Train CER(avg)=0.2504, Global Test CER=0.1961, Train Time=850.916 Decode Time=10.597 Save Time=0.748
+[Rank 0] After 11000 batches: Train Loss(last)=2.4634, Train CER(avg)=0.2309, Global Test CER=0.1842, Train Time=850.709 Decode Time=10.608 Save Time=0.745
+[Rank 0] After 12000 batches: Train Loss(last)=2.4472, Train CER(avg)=0.2146, Global Test CER=0.1991, Train Time=852.986 Decode Time=10.452 Save Time=0.000
+[Rank 0] After 13000 batches: Train Loss(last)=2.4575, Train CER(avg)=0.2006, Global Test CER=0.1848, Train Time=855.781 Decode Time=10.634 Save Time=0.760
+[Rank 0] After 14000 batches: Train Loss(last)=2.4909, Train CER(avg)=0.1884, Global Test CER=0.1763, Train Time=873.193 Decode Time=10.439 Save Time=0.747
+[Rank 0] After 15000 batches: Train Loss(last)=2.4790, Train CER(avg)=0.1778, Global Test CER=0.1840, Train Time=846.333 Decode Time=10.460 Save Time=0.000
+[Rank 0] After 16000 batches: Train Loss(last)=2.4895, Train CER(avg)=0.1684, Global Test CER=0.1747, Train Time=865.084 Decode Time=10.969 Save Time=0.757
+[Rank 0] After 17000 batches: Train Loss(last)=2.4401, Train CER(avg)=0.1600, Global Test CER=0.1780, Train Time=847.849 Decode Time=10.554 Save Time=0.000
+[Rank 0] After 18000 batches: Train Loss(last)=2.4560, Train CER(avg)=0.1525, Global Test CER=0.1743, Train Time=847.183 Decode Time=10.536 Save Time=0.762
+[Rank 0] After 19000 batches: Train Loss(last)=2.4601, Train CER(avg)=0.1458, Global Test CER=0.1703, Train Time=848.418 Decode Time=10.513 Save Time=0.769
+[Rank 0] After 20000 batches: Train Loss(last)=2.4504, Train CER(avg)=0.1397, Global Test CER=0.1640, Train Time=851.586 Decode Time=10.497 Save Time=0.759
+[Rank 0] After 21000 batches: Train Loss(last)=2.4823, Train CER(avg)=0.1341, Global Test CER=0.1561, Train Time=854.586 Decode Time=10.599 Save Time=0.858
+[Rank 0] After 22000 batches: Train Loss(last)=2.4401, Train CER(avg)=0.1291, Global Test CER=0.1554, Train Time=849.674 Decode Time=10.646 Save Time=0.755
+[Rank 0] After 23000 batches: Train Loss(last)=2.4401, Train CER(avg)=0.1244, Global Test CER=0.1610, Train Time=861.277 Decode Time=10.663 Save Time=0.000
+[Rank 0] After 24000 batches: Train Loss(last)=2.4478, Train CER(avg)=0.1201, Global Test CER=0.1539, Train Time=849.544 Decode Time=10.582 Save Time=0.754
+[Rank 0] After 25000 batches: Train Loss(last)=2.4537, Train CER(avg)=0.1161, Global Test CER=0.1575, Train Time=855.522 Decode Time=10.614 Save Time=0.000
+[Rank 0] After 26000 batches: Train Loss(last)=2.4405, Train CER(avg)=0.1124, Global Test CER=0.1521, Train Time=851.275 Decode Time=10.573 Save Time=0.809
+[Rank 0] After 27000 batches: Train Loss(last)=2.4410, Train CER(avg)=0.1089, Global Test CER=0.1440, Train Time=849.884 Decode Time=10.508 Save Time=0.760
+[Rank 0] After 28000 batches: Train Loss(last)=2.4498, Train CER(avg)=0.1057, Global Test CER=0.1454, Train Time=854.440 Decode Time=10.191 Save Time=0.000
+[Rank 0] After 29000 batches: Train Loss(last)=2.4411, Train CER(avg)=0.1027, Global Test CER=0.1554, Train Time=855.660 Decode Time=10.695 Save Time=0.000
+[Rank 0] After 30000 batches: Train Loss(last)=2.4270, Train CER(avg)=0.0999, Global Test CER=0.1520, Train Time=857.727 Decode Time=10.546 Save Time=0.739
+[Rank 0] After 31000 batches: Train Loss(last)=2.4267, Train CER(avg)=0.0973, Global Test CER=0.1432, Train Time=851.351 Decode Time=10.702 Save Time=0.748
+[Rank 0] After 32000 batches: Train Loss(last)=2.4613, Train CER(avg)=0.0948, Global Test CER=0.1497, Train Time=852.022 Decode Time=10.514 Save Time=0.000
+[Rank 0] After 33000 batches: Train Loss(last)=2.4526, Train CER(avg)=0.0924, Global Test CER=0.1474, Train Time=855.487 Decode Time=10.596 Save Time=0.760
+[Rank 0] After 34000 batches: Train Loss(last)=2.4504, Train CER(avg)=0.0902, Global Test CER=0.1439, Train Time=850.760 Decode Time=10.504 Save Time=1.076
+[Rank 0] After 35000 batches: Train Loss(last)=2.4395, Train CER(avg)=0.0881, Global Test CER=0.1462, Train Time=848.649 Decode Time=10.517 Save Time=0.000
+[Rank 0] After 36000 batches: Train Loss(last)=2.4328, Train CER(avg)=0.0861, Global Test CER=0.1425, Train Time=852.161 Decode Time=10.446 Save Time=0.790
+[Rank 0] After 37000 batches: Train Loss(last)=2.4418, Train CER(avg)=0.0842, Global Test CER=0.1403, Train Time=855.125 Decode Time=10.493 Save Time=0.768
+[Rank 0] After 38000 batches: Train Loss(last)=2.4230, Train CER(avg)=0.0824, Global Test CER=0.1526, Train Time=854.920 Decode Time=10.688 Save Time=0.000
+[Rank 0] After 39000 batches: Train Loss(last)=2.4301, Train CER(avg)=0.0807, Global Test CER=0.1451, Train Time=848.916 Decode Time=10.600 Save Time=0.749
+[Rank 0] After 40000 batches: Train Loss(last)=2.4324, Train CER(avg)=0.0791, Global Test CER=0.1474, Train Time=852.168 Decode Time=10.505 Save Time=0.000
+[Rank 0] After 41000 batches: Train Loss(last)=2.4248, Train CER(avg)=0.0775, Global Test CER=0.1453, Train Time=854.457 Decode Time=10.502 Save Time=0.777
+[Rank 0] After 42000 batches: Train Loss(last)=2.4251, Train CER(avg)=0.0760, Global Test CER=0.1421, Train Time=852.767 Decode Time=24.438 Save Time=0.772
+[Rank 0] After 43000 batches: Train Loss(last)=2.4395, Train CER(avg)=0.0746, Global Test CER=0.1356, Train Time=849.838 Decode Time=10.563 Save Time=0.765
+[Rank 0] After 44000 batches: Train Loss(last)=2.4371, Train CER(avg)=0.0733, Global Test CER=0.1410, Train Time=853.999 Decode Time=10.599 Save Time=0.000
+[Rank 0] After 45000 batches: Train Loss(last)=2.4322, Train CER(avg)=0.0720, Global Test CER=0.1398, Train Time=854.473 Decode Time=10.178 Save Time=0.761
+[Rank 0] After 45932 batches: Train Loss(last)=2.4372, Train CER(avg)=0.0708, Global Test CER=0.1476, Train Time=800.038 Decode Time=10.724 Save Time=0.000
+Next checkpoint path: /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/models/no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet/ckpt_1.pt
+Epoch: 1, Global Test CER: 0.1476
+Epoch: 1, Train Loss: 2.538, Train CER: 0.0708, Test CER: 0.1476, Time: 39734.606, no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet
+=== JOB_STATISTICS ===
+=== current date : Tue Dec 30 12:03:39 CET 2025
+= Job-ID : 3257137 on alex
+= Job-Name : no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet
+= Job-Command : /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/sbatch/no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet.sh
+= Initial workdir : /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/sbatch
+= Queue/Partition : a100
+= Slurm account : iwi5 with QOS=normal
+= Features : a100_80
+= Requested resources: for 1-00:00:00
+= Elapsed runtime : 11:11:19
+= Total RAM usage : 998.1 GiB of assigned GiB (%)
+= Node list : a0833
+= Subm/Elig/Start/End: 2025-12-30T00:42:03 / 2025-12-30T00:42:03 / 2025-12-30T00:52:19 / 2025-12-30T12:03:38
+
+[Rank 0] After 1000 batches: Train Loss(last)=2.4215, Train CER(avg)=0.0084, Global Test CER=0.1387, Train Time=858.277 Decode Time=9.823 Save Time=0.000
+[Rank 0] After 2000 batches: Train Loss(last)=2.4394, Train CER(avg)=0.0084, Global Test CER=0.1140, Train Time=860.439 Decode Time=9.477 Save Time=0.723
+[Rank 0] After 3000 batches: Train Loss(last)=2.4201, Train CER(avg)=0.0084, Global Test CER=0.1241, Train Time=850.735 Decode Time=9.421 Save Time=0.000
+[Rank 0] After 4000 batches: Train Loss(last)=2.4253, Train CER(avg)=0.0084, Global Test CER=0.1701, Train Time=855.844 Decode Time=9.565 Save Time=0.000
+[Rank 0] After 5000 batches: Train Loss(last)=2.4200, Train CER(avg)=0.0084, Global Test CER=0.3985, Train Time=854.728 Decode Time=9.432 Save Time=0.000
+[Rank 0] After 6000 batches: Train Loss(last)=2.4214, Train CER(avg)=0.0084, Global Test CER=0.1207, Train Time=851.504 Decode Time=9.511 Save Time=0.699
+[Rank 0] After 7000 batches: Train Loss(last)=2.4164, Train CER(avg)=0.0084, Global Test CER=0.1204, Train Time=852.448 Decode Time=9.334 Save Time=0.705
+[Rank 0] After 8000 batches: Train Loss(last)=2.4218, Train CER(avg)=0.0084, Global Test CER=0.1242, Train Time=854.534 Decode Time=9.419 Save Time=0.000
+[Rank 0] After 9000 batches: Train Loss(last)=2.4242, Train CER(avg)=0.0084, Global Test CER=0.1333, Train Time=853.389 Decode Time=9.605 Save Time=0.000
+[Rank 0] After 10000 batches: Train Loss(last)=2.4183, Train CER(avg)=0.0084, Global Test CER=0.1255, Train Time=863.283 Decode Time=9.666 Save Time=0.725
+[Rank 0] After 11000 batches: Train Loss(last)=2.4241, Train CER(avg)=0.0084, Global Test CER=0.1261, Train Time=850.056 Decode Time=9.420 Save Time=0.000
+[Rank 0] After 12000 batches: Train Loss(last)=2.4231, Train CER(avg)=0.0084, Global Test CER=0.3054, Train Time=856.874 Decode Time=9.555 Save Time=0.000
+[Rank 0] After 13000 batches: Train Loss(last)=2.4214, Train CER(avg)=0.0084, Global Test CER=0.1967, Train Time=854.632 Decode Time=9.556 Save Time=0.764
+[Rank 0] After 14000 batches: Train Loss(last)=2.4292, Train CER(avg)=0.0084, Global Test CER=0.1248, Train Time=855.134 Decode Time=9.427 Save Time=0.707
+[Rank 0] After 15000 batches: Train Loss(last)=2.4264, Train CER(avg)=0.0084, Global Test CER=0.1207, Train Time=855.146 Decode Time=9.626 Save Time=0.718
+[Rank 0] After 16000 batches: Train Loss(last)=2.4391, Train CER(avg)=0.0084, Global Test CER=0.1191, Train Time=870.834 Decode Time=9.499 Save Time=0.708
+[Rank 0] After 17000 batches: Train Loss(last)=2.4187, Train CER(avg)=0.0084, Global Test CER=0.4846, Train Time=849.262 Decode Time=13.455 Save Time=0.000
+[Rank 0] After 18000 batches: Train Loss(last)=2.4236, Train CER(avg)=0.0084, Global Test CER=0.3603, Train Time=858.122 Decode Time=9.618 Save Time=0.722
+[Rank 0] After 19000 batches: Train Loss(last)=2.4328, Train CER(avg)=0.0084, Global Test CER=0.3664, Train Time=853.337 Decode Time=9.663 Save Time=0.000
+[Rank 0] After 20000 batches: Train Loss(last)=2.4219, Train CER(avg)=0.0084, Global Test CER=0.3281, Train Time=859.080 Decode Time=9.498 Save Time=0.737
+[Rank 0] After 21000 batches: Train Loss(last)=2.4302, Train CER(avg)=0.0084, Global Test CER=0.1151, Train Time=850.730 Decode Time=8.962 Save Time=0.697
+[Rank 0] After 22000 batches: Train Loss(last)=2.4212, Train CER(avg)=0.0084, Global Test CER=0.2567, Train Time=853.611 Decode Time=9.582 Save Time=0.000
+[Rank 0] After 23000 batches: Train Loss(last)=2.4248, Train CER(avg)=0.0083, Global Test CER=0.1216, Train Time=851.472 Decode Time=9.661 Save Time=0.831
+[Rank 0] After 24000 batches: Train Loss(last)=2.4196, Train CER(avg)=0.0083, Global Test CER=0.1252, Train Time=854.258 Decode Time=9.776 Save Time=0.000
+[Rank 0] After 25000 batches: Train Loss(last)=2.4243, Train CER(avg)=0.0083, Global Test CER=0.1320, Train Time=949.560 Decode Time=9.496 Save Time=0.000
+[Rank 0] After 26000 batches: Train Loss(last)=2.4219, Train CER(avg)=0.0083, Global Test CER=0.3306, Train Time=1019.328 Decode Time=9.952 Save Time=0.000
+[Rank 0] After 27000 batches: Train Loss(last)=2.4224, Train CER(avg)=0.0083, Global Test CER=0.3288, Train Time=1035.470 Decode Time=9.902 Save Time=0.735
+[Rank 0] After 28000 batches: Train Loss(last)=2.4273, Train CER(avg)=0.0083, Global Test CER=0.3558, Train Time=1063.066 Decode Time=9.981 Save Time=0.000
+[Rank 0] After 29000 batches: Train Loss(last)=2.4223, Train CER(avg)=0.0083, Global Test CER=0.1210, Train Time=1042.823 Decode Time=9.317 Save Time=0.733
+[Rank 0] After 30000 batches: Train Loss(last)=2.4204, Train CER(avg)=0.0083, Global Test CER=0.2277, Train Time=1035.342 Decode Time=9.628 Save Time=0.000
+[Rank 0] After 31000 batches: Train Loss(last)=2.4206, Train CER(avg)=0.0083, Global Test CER=0.4847, Train Time=1009.924 Decode Time=9.714 Save Time=0.000
+[Rank 0] After 32000 batches: Train Loss(last)=2.4325, Train CER(avg)=0.0083, Global Test CER=0.3421, Train Time=996.127 Decode Time=9.812 Save Time=0.724
+[Rank 0] After 33000 batches: Train Loss(last)=2.4269, Train CER(avg)=0.0083, Global Test CER=0.1193, Train Time=961.987 Decode Time=9.837 Save Time=0.704
+[Rank 0] After 34000 batches: Train Loss(last)=2.4396, Train CER(avg)=0.0082, Global Test CER=0.1215, Train Time=954.869 Decode Time=8.886 Save Time=0.000
+[Rank 0] After 35000 batches: Train Loss(last)=2.4223, Train CER(avg)=0.0082, Global Test CER=0.3237, Train Time=935.321 Decode Time=9.628 Save Time=0.000
+[Rank 0] After 36000 batches: Train Loss(last)=2.4252, Train CER(avg)=0.0082, Global Test CER=0.1178, Train Time=909.370 Decode Time=9.177 Save Time=0.731
+[Rank 0] After 37000 batches: Train Loss(last)=2.4304, Train CER(avg)=0.0082, Global Test CER=0.2868, Train Time=896.352 Decode Time=9.607 Save Time=0.000
+[Rank 0] After 38000 batches: Train Loss(last)=2.4171, Train CER(avg)=0.0082, Global Test CER=0.1187, Train Time=868.433 Decode Time=9.726 Save Time=0.730
+[Rank 0] After 39000 batches: Train Loss(last)=2.4170, Train CER(avg)=0.0082, Global Test CER=0.4176, Train Time=869.149 Decode Time=9.573 Save Time=0.000
+[Rank 0] After 40000 batches: Train Loss(last)=2.4234, Train CER(avg)=0.0082, Global Test CER=0.4498, Train Time=854.701 Decode Time=9.481 Save Time=0.000
+[Rank 0] After 41000 batches: Train Loss(last)=2.4199, Train CER(avg)=0.0082, Global Test CER=0.1270, Train Time=856.690 Decode Time=9.629 Save Time=0.718
+[Rank 0] After 42000 batches: Train Loss(last)=2.4202, Train CER(avg)=0.0082, Global Test CER=0.1232, Train Time=849.930 Decode Time=9.622 Save Time=0.895
+[Rank 0] After 43000 batches: Train Loss(last)=2.4298, Train CER(avg)=0.0082, Global Test CER=0.5638, Train Time=857.621 Decode Time=9.525 Save Time=0.000
+[Rank 0] After 44000 batches: Train Loss(last)=2.4214, Train CER(avg)=0.0082, Global Test CER=0.1317, Train Time=854.339 Decode Time=9.442 Save Time=0.783
+[Rank 0] After 45000 batches: Train Loss(last)=2.4299, Train CER(avg)=0.0082, Global Test CER=0.4455, Train Time=849.469 Decode Time=9.691 Save Time=0.000
+[Rank 0] After 45932 batches: Train Loss(last)=2.4199, Train CER(avg)=0.0082, Global Test CER=0.1223, Train Time=791.947 Decode Time=9.265 Save Time=0.717
+Next checkpoint path: /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/models/no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet/ckpt_2.pt
+Epoch: 1, Global Test CER: 0.1223
+Epoch: 1, Train Loss: 2.426, Train CER: 0.0082, Test CER: 0.1223, Time: 41469.302, no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet
+[Rank 0] After 1000 batches: Train Loss(last)=2.4281, Train CER(avg)=0.0078, Global Test CER=0.1291, Train Time=853.447 Decode Time=9.508 Save Time=0.000
+[Rank 0] After 2000 batches: Train Loss(last)=2.4276, Train CER(avg)=0.0078, Global Test CER=0.2832, Train Time=857.827 Decode Time=9.364 Save Time=0.000
+[Rank 0] After 3000 batches: Train Loss(last)=2.4409, Train CER(avg)=0.0077, Global Test CER=0.1535, Train Time=852.756 Decode Time=9.557 Save Time=0.727
+[Rank 0] After 4000 batches: Train Loss(last)=2.4305, Train CER(avg)=0.0077, Global Test CER=0.1479, Train Time=859.490 Decode Time=11.556 Save Time=0.692
+[Rank 0] After 5000 batches: Train Loss(last)=2.4158, Train CER(avg)=0.0077, Global Test CER=0.1208, Train Time=848.626 Decode Time=9.396 Save Time=0.675
+[Rank 0] After 6000 batches: Train Loss(last)=2.4226, Train CER(avg)=0.0078, Global Test CER=0.2961, Train Time=857.865 Decode Time=9.378 Save Time=0.000
+[Rank 0] After 7000 batches: Train Loss(last)=2.4225, Train CER(avg)=0.0078, Global Test CER=0.1182, Train Time=850.687 Decode Time=9.291 Save Time=0.959
+[Rank 0] After 8000 batches: Train Loss(last)=2.4276, Train CER(avg)=0.0078, Global Test CER=0.1251, Train Time=852.252 Decode Time=9.098 Save Time=0.000
+[Rank 0] After 9000 batches: Train Loss(last)=2.4262, Train CER(avg)=0.0078, Global Test CER=0.1198, Train Time=849.208 Decode Time=9.396 Save Time=0.706
+[Rank 0] After 10000 batches: Train Loss(last)=2.4294, Train CER(avg)=0.0078, Global Test CER=0.1252, Train Time=857.356 Decode Time=9.031 Save Time=0.000
+[Rank 0] After 11000 batches: Train Loss(last)=2.4242, Train CER(avg)=0.0078, Global Test CER=0.2088, Train Time=850.567 Decode Time=9.469 Save Time=0.000
+[Rank 0] After 12000 batches: Train Loss(last)=2.4285, Train CER(avg)=0.0078, Global Test CER=0.1237, Train Time=855.178 Decode Time=8.887 Save Time=0.700
+[Rank 0] After 13000 batches: Train Loss(last)=2.4221, Train CER(avg)=0.0078, Global Test CER=0.1295, Train Time=848.499 Decode Time=9.422 Save Time=0.000
+[Rank 0] After 14000 batches: Train Loss(last)=2.4204, Train CER(avg)=0.0078, Global Test CER=0.1177, Train Time=862.719 Decode Time=9.555 Save Time=0.910
+[Rank 0] After 15000 batches: Train Loss(last)=2.4176, Train CER(avg)=0.0077, Global Test CER=0.1172, Train Time=851.831 Decode Time=9.388 Save Time=0.692
+[Rank 0] After 16000 batches: Train Loss(last)=2.4154, Train CER(avg)=0.0077, Global Test CER=0.5827, Train Time=857.900 Decode Time=9.537 Save Time=0.000
+[Rank 0] After 17000 batches: Train Loss(last)=2.4157, Train CER(avg)=0.0077, Global Test CER=0.4604, Train Time=849.594 Decode Time=9.543 Save Time=0.706
+[Rank 0] After 18000 batches: Train Loss(last)=2.4239, Train CER(avg)=0.0077, Global Test CER=0.4892, Train Time=857.914 Decode Time=9.550 Save Time=0.000
+[Rank 0] After 19000 batches: Train Loss(last)=2.4212, Train CER(avg)=0.0077, Global Test CER=0.1236, Train Time=849.955 Decode Time=9.410 Save Time=0.729
+[Rank 0] After 20000 batches: Train Loss(last)=2.4169, Train CER(avg)=0.0077, Global Test CER=0.1257, Train Time=853.828 Decode Time=10.553 Save Time=0.000
+[Rank 0] After 21000 batches: Train Loss(last)=2.4189, Train CER(avg)=0.0077, Global Test CER=0.1266, Train Time=852.027 Decode Time=9.312 Save Time=0.000
+[Rank 0] After 22000 batches: Train Loss(last)=2.4201, Train CER(avg)=0.0077, Global Test CER=0.1271, Train Time=861.141 Decode Time=9.578 Save Time=0.000
+[Rank 0] After 23000 batches: Train Loss(last)=2.4291, Train CER(avg)=0.0077, Global Test CER=0.6943, Train Time=854.997 Decode Time=9.464 Save Time=0.000
+[Rank 0] After 24000 batches: Train Loss(last)=2.4300, Train CER(avg)=0.0077, Global Test CER=0.7106, Train Time=851.004 Decode Time=9.615 Save Time=0.000
+[Rank 0] After 25000 batches: Train Loss(last)=2.4263, Train CER(avg)=0.0077, Global Test CER=0.2488, Train Time=858.842 Decode Time=9.575 Save Time=0.761
+[Rank 0] After 26000 batches: Train Loss(last)=2.4376, Train CER(avg)=0.0077, Global Test CER=0.3198, Train Time=850.209 Decode Time=9.564 Save Time=0.000
+[Rank 0] After 27000 batches: Train Loss(last)=2.4278, Train CER(avg)=0.0077, Global Test CER=0.1221, Train Time=857.643 Decode Time=9.590 Save Time=0.722
+[Rank 0] After 28000 batches: Train Loss(last)=2.4168, Train CER(avg)=0.0077, Global Test CER=0.1557, Train Time=850.733 Decode Time=9.744 Save Time=0.000
+[Rank 0] After 29000 batches: Train Loss(last)=2.4253, Train CER(avg)=0.0077, Global Test CER=0.6378, Train Time=857.741 Decode Time=9.429 Save Time=0.000
+[Rank 0] After 30000 batches: Train Loss(last)=2.4185, Train CER(avg)=0.0077, Global Test CER=0.1204, Train Time=857.759 Decode Time=9.515 Save Time=0.736
+[Rank 0] After 31000 batches: Train Loss(last)=2.4289, Train CER(avg)=0.0077, Global Test CER=0.4327, Train Time=856.891 Decode Time=13.153 Save Time=0.000
+[Rank 0] After 32000 batches: Train Loss(last)=2.4351, Train CER(avg)=0.0077, Global Test CER=0.2179, Train Time=850.847 Decode Time=9.431 Save Time=0.727
+[Rank 0] After 33000 batches: Train Loss(last)=2.4191, Train CER(avg)=0.0077, Global Test CER=0.1288, Train Time=851.148 Decode Time=9.380 Save Time=0.746
+[Rank 0] After 34000 batches: Train Loss(last)=2.4243, Train CER(avg)=0.0077, Global Test CER=0.5478, Train Time=851.701 Decode Time=9.470 Save Time=0.000
+[Rank 0] After 35000 batches: Train Loss(last)=2.4151, Train CER(avg)=0.0077, Global Test CER=0.4208, Train Time=857.794 Decode Time=9.379 Save Time=0.722
+[Rank 0] After 36000 batches: Train Loss(last)=2.4168, Train CER(avg)=0.0076, Global Test CER=0.1234, Train Time=850.575 Decode Time=8.980 Save Time=0.716
+[Rank 0] After 37000 batches: Train Loss(last)=2.4491, Train CER(avg)=0.0076, Global Test CER=0.2899, Train Time=856.149 Decode Time=9.552 Save Time=0.000
+[Rank 0] After 38000 batches: Train Loss(last)=2.4146, Train CER(avg)=0.0076, Global Test CER=0.6408, Train Time=851.350 Decode Time=9.580 Save Time=0.000
+[Rank 0] After 39000 batches: Train Loss(last)=2.4155, Train CER(avg)=0.0076, Global Test CER=0.1222, Train Time=865.515 Decode Time=9.371 Save Time=0.729
+[Rank 0] After 40000 batches: Train Loss(last)=2.4226, Train CER(avg)=0.0076, Global Test CER=0.1305, Train Time=851.441 Decode Time=9.360 Save Time=0.000
+[Rank 0] After 41000 batches: Train Loss(last)=2.4235, Train CER(avg)=0.0076, Global Test CER=0.3187, Train Time=852.165 Decode Time=9.565 Save Time=0.000
+[Rank 0] After 42000 batches: Train Loss(last)=2.4198, Train CER(avg)=0.0076, Global Test CER=0.5134, Train Time=851.242 Decode Time=9.403 Save Time=0.000
+[Rank 0] After 43000 batches: Train Loss(last)=2.4216, Train CER(avg)=0.0076, Global Test CER=0.3639, Train Time=856.632 Decode Time=9.396 Save Time=0.730
+[Rank 0] After 44000 batches: Train Loss(last)=2.4237, Train CER(avg)=0.0076, Global Test CER=0.4223, Train Time=850.426 Decode Time=9.457 Save Time=0.000
+[Rank 0] After 45000 batches: Train Loss(last)=2.4382, Train CER(avg)=0.0076, Global Test CER=0.1241, Train Time=857.700 Decode Time=9.505 Save Time=0.940
+[Rank 0] After 45932 batches: Train Loss(last)=2.4221, Train CER(avg)=0.0076, Global Test CER=0.1173, Train Time=792.266 Decode Time=9.435 Save Time=0.717
+Next checkpoint path: /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/models/no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet/ckpt_3.pt
+Epoch: 2, Global Test CER: 0.1173
+Epoch: 2, Train Loss: 2.425, Train CER: 0.0076, Test CER: 0.1173, Time: 39710.351, no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet
+Next checkpoint path: /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/models/no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet/ckpt_3.pt
+Epoch: 2, Global Test CER: 0.1173
+Epoch: 2, Train Loss: 2.425, Train CER: 0.0076, Test CER: 0.1173, Time: 39710.351, no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet
+=== JOB_STATISTICS ===
+=== current date     : Wed Dec 31 20:16:16 CET 2025
+= Job-ID             : 3257878 on alex
+= Job-Name           : no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet
+= Job-Command        : /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/sbatch/no_retnorm_8_GPU_Bi_ret_12_synth_increase_gamma_along_layers_RetNet.sh
+= Initial workdir    : /home/hpc/iwi5/iwi5295h/RetNetHTR/DRetHTR/sbatch
+= Queue/Partition    : a100
+= Slurm account      : iwi5 with QOS=normal
+= Features           : a100_80
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 22:38:19
+= Total RAM usage    : 627.2 GiB of assigned  GiB (%)
+= Node list          : a0932
+= Subm/Elig/Start/End: 2025-12-30T21:32:45 / 2025-12-30T21:32:45 / 2025-12-30T21:37:56 / 2025-12-31T20:16:15
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace
+    /home/woody        426.1G  1000.0G  1500.0G        N/A     369K   5,000K   7,500K        N/A
+    /home/hpc           64.3G   104.9G   209.7G        N/A      76K     500K   1,000K        N/A
+    /home/vault        985.7G  1048.6G  2097.2G        N/A      74      200K     400K        N/A
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446370, 95 %, 40 %, 60940 MiB, 81292154 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446373, 0 %, 0 %, 872 MiB, 81306725 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446371, 0 %, 0 %, 872 MiB, 81306718 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446375, 0 %, 0 %, 872 MiB, 81294342 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446374, 0 %, 0 %, 872 MiB, 81305537 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446377, 0 %, 0 %, 872 MiB, 81294347 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446372, 0 %, 0 %, 872 MiB, 81307927 ms
+NVIDIA A100-SXM4-80GB, 00000000:0E:00.0, 1446376, 0 %, 0 %, 872 MiB, 81301318 ms
+NVIDIA A100-SXM4-80GB, 00000000:13:00.0, 1446371, 99 %, 40 %, 61302 MiB, 81306659 ms
+NVIDIA A100-SXM4-80GB, 00000000:49:00.0, 1446372, 99 %, 40 %, 61302 MiB, 81307837 ms
+NVIDIA A100-SXM4-80GB, 00000000:4F:00.0, 1446373, 99 %, 40 %, 61302 MiB, 81306552 ms
+NVIDIA A100-SXM4-80GB, 00000000:90:00.0, 1446374, 99 %, 40 %, 61302 MiB, 81305417 ms
+NVIDIA A100-SXM4-80GB, 00000000:96:00.0, 1446375, 99 %, 40 %, 61302 MiB, 81294233 ms
+NVIDIA A100-SXM4-80GB, 00000000:CC:00.0, 1446376, 97 %, 40 %, 61302 MiB, 81301245 ms
+NVIDIA A100-SXM4-80GB, 00000000:D1:00.0, 1446377, 98 %, 40 %, 61158 MiB, 81294154 ms

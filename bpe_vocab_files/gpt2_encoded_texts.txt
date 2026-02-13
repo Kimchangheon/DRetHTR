@@ -1,0 +1,112 @@
+Original: A MOVE to stop Mr. Gaitskell from
+Encoded: [32, 13070, 6089, 284, 2245, 1770, 13, 12822, 896, 17164, 422]
+Decoded: A MOVE to stop Mr. Gaitskell from
+
+Original: nominating any more Labour life Peers
+Encoded: [26601, 6010, 597, 517, 7179, 1204, 2631, 364]
+Decoded: nominating any more Labour life Peers
+
+Original: is to be made at a meeting of Labour
+Encoded: [271, 284, 307, 925, 379, 257, 3249, 286, 7179]
+Decoded: is to be made at a meeting of Labour
+
+Original: M Ps tomorrow . Mr. Michael Foot has
+Encoded: [44, 33610, 9439, 764, 1770, 13, 3899, 7870, 468]
+Decoded: M Ps tomorrow . Mr. Michael Foot has
+
+Original: put down a resolution on the subject
+Encoded: [1996, 866, 257, 6323, 319, 262, 2426]
+Decoded: put down a resolution on the subject
+
+Original: and he is to be backed by Mr. Will
+Encoded: [392, 339, 318, 284, 307, 9763, 416, 1770, 13, 2561]
+Decoded: and he is to be backed by Mr. Will
+
+Original: Griffiths , M P for Manchester Exchange .
+Encoded: [8642, 733, 47252, 837, 337, 350, 329, 9502, 12516, 764]
+Decoded: Griffiths , M P for Manchester Exchange .
+
+Original: A MOVE to stop Mr. Gaitskell from nominating
+Encoded: [32, 13070, 6089, 284, 2245, 1770, 13, 12822, 896, 17164, 422, 48833]
+Decoded: A MOVE to stop Mr. Gaitskell from nominating
+
+Original: any more Labour life Peers is to be made at a
+Encoded: [1092, 517, 7179, 1204, 2631, 364, 318, 284, 307, 925, 379, 257]
+Decoded: any more Labour life Peers is to be made at a
+
+Original: meeting of Labour 0M Ps tomorrow . Mr. Michael
+Encoded: [1326, 13629, 286, 7179, 657, 44, 33610, 9439, 764, 1770, 13, 3899]
+Decoded: meeting of Labour 0M Ps tomorrow . Mr. Michael
+
+Original: Foot has put down a resolution on the subject
+Encoded: [17574, 468, 1234, 866, 257, 6323, 319, 262, 2426]
+Decoded: Foot has put down a resolution on the subject
+
+Original: and he is to be backed by Mr. Will Griffiths ,
+Encoded: [392, 339, 318, 284, 307, 9763, 416, 1770, 13, 2561, 30469, 82, 837]
+Decoded: and he is to be backed by Mr. Will Griffiths ,
+
+Original: 0M P for Manchester Exchange .
+Encoded: [15, 44, 350, 329, 9502, 12516, 764]
+Decoded: 0M P for Manchester Exchange .
+
+Original: Though they may gather some Left-wing support , a
+Encoded: [10915, 484, 743, 6431, 617, 9578, 12, 5469, 1104, 837, 257]
+Decoded: Though they may gather some Left-wing support , a
+
+Original: large majority of Labour M Ps are likely to
+Encoded: [11664, 3741, 286, 7179, 337, 33610, 389, 1884, 284]
+Decoded: large majority of Labour M Ps are likely to
+
+Original: turn down the Foot-Griffiths resolution . Mr.
+Encoded: [15344, 866, 262, 7870, 12, 8642, 733, 47252, 6323, 764, 1770, 13]
+Decoded: turn down the Foot-Griffiths resolution . Mr.
+
+Original: Foot's line will be that as Labour M Ps
+Encoded: [17574, 338, 1627, 481, 307, 326, 355, 7179, 337, 33610]
+Decoded: Foot's line will be that as Labour M Ps
+
+Original: opposed the Government Bill which brought
+Encoded: [10365, 1335, 262, 5070, 3941, 543, 3181]
+Decoded: opposed the Government Bill which brought
+
+Original: life peers into existence , they should not
+Encoded: [6042, 14495, 656, 6224, 837, 484, 815, 407]
+Decoded: life peers into existence , they should not
+
+Original: now put forward nominees . He believes
+Encoded: [2197, 1234, 2651, 26456, 764, 679, 5804]
+Decoded: now put forward nominees . He believes
+
+Original: that the House of Lords should be abolished
+Encoded: [5562, 262, 2097, 286, 18651, 815, 307, 32424]
+Decoded: that the House of Lords should be abolished
+
+Original: and that Labour should not take any steps
+Encoded: [392, 326, 7179, 815, 407, 1011, 597, 4831]
+Decoded: and that Labour should not take any steps
+
+Original: which would appear to " prop up " an out-dated
+Encoded: [4758, 561, 1656, 284, 366, 2632, 510, 366, 281, 503, 12, 8715]
+Decoded: which would appear to " prop up " an out-dated
+
+Original: institution .
+Encoded: [8625, 2738, 764]
+Decoded: institution .
+
+Original: Though they may gather some Left-wing
+Encoded: [10915, 484, 743, 6431, 617, 9578, 12, 5469]
+Decoded: Though they may gather some Left-wing
+
+Original: support , a large majority of Labour
+Encoded: [11284, 837, 257, 1588, 3741, 286, 7179]
+Decoded: support , a large majority of Labour
+
+Original: M Ps are likely to turn down the Foot-
+Encoded: [44, 33610, 389, 1884, 284, 1210, 866, 262, 7870, 12]
+Decoded: M Ps are likely to turn down the Foot-
+
+Original: Griffiths resolution . Mr. Foot's line will
+Encoded: [8642, 733, 47252, 6323, 764, 1770, 13, 7870, 338, 1627, 481]
+Decoded: Griffiths resolution . Mr. Foot's line will
+
