@@ -1,4 +1,7 @@
+
+
 # DRetHTR – IAM Fine-tuning & Testing Guide
+This is the code for http://arxiv.org/abs/2602.17387 
 
 This guide describes how to install dependencies and run **IAM fine-tuning** and **IAM testing** for the DRetHTR configuration used in our experiments.
 
