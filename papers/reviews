@@ -1,0 +1,49 @@
+
+Reviewers' comments:
+
+
+AE: The manuscript presents a decoder-only handwritten text recognition framework based on Retentive Networks, aiming to reduce the inference speed and memory limitations of Transformer-based HTR while maintaining strong recognition accuracy. The reviewers generally found the core idea well motivated, with promising results, useful ablation studies, and technically interesting components such as ARMF and layer-wise gamma scaling. However, several important issues should be addressed before the paper can be considered for acceptance: the related work needs to be expanded to include recent efficient parallel decoding and language-model-based HTR approaches, the explanation of some tables and the model configuration details should be clarified for reproducibility, and the evaluation should be broadened beyond simple single-line text to more realistic and challenging document layouts or datasets. Based on these concerns, I recommend Major Revision, with the expectation that the authors strengthen the experimental scope, clarify methodological details, and better position the work against recent relevant studies.
+
+
+Reviewer #1: This paper presents DRetHTR, a novel and well-motivated approach to handwritten text recognition that leverages Retentive Networks to achieve impressive gains in inference speed and memory efficiency over standard Transformers, without sacrificing accuracy. The core ideas—ARMF for modality fusion and layer-wise gamma scaling to recover inductive bias—are innovative and well-motivated. The experimental results on standard benchmarks are strong, and the ablation studies are thorough.
+However, the paper's impact is currently limited by a few key issues.
+
+First, the related work section is incomplete, omitting recent, highly relevant research on efficient parallel decoding for text recognition
+(e.g., HTR methods based on MTP or diffusion language models). A proper comparison with these methods is essential.
+
+Second, the evaluation is confined to simple, single-line text, leaving the model's capabilities on more complex and realistic document layouts
+(curved text, paragraphs, tables) entirely unexplored.
+
+Third, there are inconsistencies in the reported model configurations (Small vs. Base feature dimensions) that need clarification for reproducibility.
+
+Addressing these points, particularly by expanding the related work, conducting experiments on more diverse and challenging datasets
+(like SCUT-HCCDoc, ICDAR 2019 ArT, or even paragraph-level data), and clarifying the methodological details, would significantly strengthen the paper and make a compelling case for its contribution to the field.
+
+
+Reviewer #3: (To be filled in by the Associate editor) - Metareview from the Associate Editor (minimum 60 words):
+Notes to the Reviewer : This field is mandatory. Please put here your comments explaining your ratings of the paper and suggesting improvements
+
+I would like to ask the authors for improving the section of 2. Related Work.
+Also, I would like to ask the authors for presenting more detailed explanations of Table 11 (Page 22).
+
+
+
+%ATTACH_FOR_REVIEWER_DEEP_LINK INSTRUCTIONS%
+
+%REVIEW_QUESTIONS_AND_RESPONSES%
+
+EiC: While you are revising your paper, here is a list of points worth checking, which we find author's overlook. I will check that these are adhered to before your paper is approved for publication, assuming the revision satisfies the Associate Editor and Reviewers.
+
+a) Take a careful look at your bibliography and they cover the state of the art. Missing references from last and current year most probably would mean you are missing the state of the art and the revision process can be delayed being asked to update it. Please do not make excessive citation to arXiv papers, but substitute them with their peer-reviewed versions, or papers from a single conference series. Do not cite large groups of papers without individually commenting on them. So we discourage " In prior work [1,2,3,4,5,6] …". Your bibliography in the final version after the revision still should be between 35-55 items.
+
+b)  Please make sure the revised version is relevant to the readership of the Pattern Recognition field. To this end, please make sure you cite RECENT  work from the field of pattern recognition not only the Pattern Recognition journal.
+
+c) Although the revision could lead to extending your article, it still can not exceed the page limits or violate the format, i.e. double spaced SINGLE column with a maximum of 35 pages for a regular paper and 40 pages for a review.
+
+
+At Elsevier, we want to help all our authors to stay safe when publishing. Please be aware of fraudulent messages requesting money in return for the publication of your paper. If you are publishing open access with Elsevier, bear in mind that we will never request payment before the paper has been accepted. We have prepared some guidelines (https://www.elsevier.com/connect/authors-update/seven-top-tips-on-stopping-apc-scams ) that you may find helpful, including a short video on Identifying fake acceptance letters (https://www.youtube.com/watch?v=o5l8thD9XtE ). Please remember that you can contact Elsevier s Researcher Support team (https://service.elsevier.com/app/home/supporthub/publishing/) at any time if you have questions about your manuscript, and you can log into Editorial Manager to check the status of your manuscript (https://service.elsevier.com/app/answers/detail/a_id/29155/c/10530/supporthub/publishing/kw/status/).
+
+#AU_PR#
+
+To ensure this email reaches the intended recipient, please do not delete the above code
+
