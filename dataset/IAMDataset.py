@@ -80,9 +80,16 @@ class ImageTxtProcessor:
             self.PAD_ID = self.char_map['<PAD>']
         self.padding = padding
         self.max_length = max_length
+        # Optional geometry-aware rectification front-end (off by default).
+        # When None (default) the single-line pipeline is unchanged. A Rectifier
+        # from preprocessing.rectification can be attached for curved/ArT data.
+        self.rectifier = None
 
     def process_image(self, image, size_dict=None,rescale_factor=0.00392156862745098,  image_mean=0.5, image_std=0.5,
                       do_aug=True, do_resize = True, do_rescale= True, do_normalize = True):
+        # optional rectification (no-op unless an enabled Rectifier is attached)
+        if getattr(self, 'rectifier', None) is not None:
+            image = self.rectifier(image)
         #augmentation
         if do_aug :
             image = self.augs(image)

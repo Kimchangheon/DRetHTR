@@ -88,6 +88,7 @@ def process_directory(input_dir, output_dir):
                 print(f"Failed to load image {img_path}")
 
 
-input_directory = os.path.expanduser('~/IAM/image')
-output_directory = os.path.expanduser('~/IAM_deslanted/image')
-process_directory(input_directory, output_directory)
+if __name__ == '__main__':
+    input_directory = os.path.expanduser('~/IAM/image')
+    output_directory = os.path.expanduser('~/IAM_deslanted/image')
+    process_directory(input_directory, output_directory)
